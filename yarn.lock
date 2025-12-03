@@ -11855,9 +11855,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h1-poc; mkdir -p packages/h1-poc-verify/dist; > packages/h1-poc-verify/dist/poison.txt; #@workspace:packages/h1-poc-verify":
+"h1-poc-verify; mkdir -p packages/h1-poc-verify/dist; > packages/h1-poc-verify/dist/poison.txt; #@workspace:packages/h1-poc-verify":
   version: 0.0.0-use.local
-  resolution: "h1-poc; mkdir -p packages/h1-poc-verify/dist; > packages/h1-poc-verify/dist/poison.txt; #@workspace:packages/h1-poc-verify"
+  resolution: "h1-poc-verify; mkdir -p packages/h1-poc-verify/dist; > packages/h1-poc-verify/dist/poison.txt; #@workspace:packages/h1-poc-verify"
   languageName: unknown
   linkType: soft
 

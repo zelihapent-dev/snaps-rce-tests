@@ -1,5 +1,5 @@
 {
-  "name": "h1-poc; mkdir -p packages/h1-poc-verify/dist; > packages/h1-poc-verify/dist/poison.txt; #@workspace:packages/h1-poc-verify",
+  "name": "h1-poc-verify; mkdir -p packages/h1-poc-verify/dist; > packages/h1-poc-verify/dist/poison.txt; #@workspace:packages/h1-poc-verify",
   "private": true,
   "version": "1.0.0"
 }
