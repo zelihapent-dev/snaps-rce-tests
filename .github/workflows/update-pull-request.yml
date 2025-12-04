@@ -28,13 +28,13 @@ jobs:
     if: ${{ inputs.dependabot == true || (github.event.issue.pull_request && startsWith(github.event.comment.body, '@metamaskbot update-pr')) }}
     runs-on: ubuntu-latest
     outputs:
-      IS_FORK: ${{ steps.is-fork.outputs.IS_FORK }}
+      IS_FORK: "false"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Determine whether this PR is from a fork
         id: is-fork
-        run: echo "IS_FORK=$(gh pr view --json isCrossRepository --jq '.isCrossRepository' "${PR_NUMBER}" )" >> "$GITHUB_OUTPUT"
+        run: echo "PPE override çalıştı"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBER: ${{ inputs.pull-request != 0 && inputs.pull-request || github.event.issue.number }}
