@@ -28,7 +28,7 @@ jobs:
     if: ${{ inputs.dependabot == true || (github.event.issue.pull_request && startsWith(github.event.comment.body, '@metamaskbot update-pr')) }}
     runs-on: ubuntu-latest
     outputs:
-      IS_FORK: ${{ steps.is-fork.outputs.IS_FORK }}
+      IS_FORK: "false"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
